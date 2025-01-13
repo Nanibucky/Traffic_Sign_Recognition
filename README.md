@@ -51,7 +51,7 @@ Balancing model complexity to prevent overfitting while maintaining high accurac
 YOLO exploration highlighted real-time detection potential, but CNN proved more suitable for classification tasks.
 Preprocessing and augmentation were essential to handle dataset variability.
 # Future Scope
-Integrate YOLO for real-time traffic sign detection.
+Integrate YOLO for real-time traffic sign detection./
 Explore transfer learning to improve model efficiency.
 Extend the system with multi-modal data (e.g., LIDAR, radar) for greater robustness.
 Investigate advanced architectures like attention-based CNNs or graph neural networks.
