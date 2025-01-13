@@ -1,18 +1,17 @@
 # Traffic-Sign-Classification-Using-Deep-Learning
 ## Overview
-Overview
 Traffic sign classification plays a crucial role in autonomous vehicles, smart cities, and intelligent transportation systems. This project implements a robust Convolutional Neural Network (CNN) to accurately classify traffic signs using the German Traffic Sign Recognition Benchmark (GTSRB) dataset. The project highlights the effectiveness of CNNs for real-world image recognition tasks, demonstrating their potential for critical applications.
 
-Features
-Data Preprocessing:
+#Features
+#Data Preprocessing:
 
 Resized images to multiple resolutions (30x30 and 60x60 pixels).
 Applied augmentation techniques (rotation, translation, and normalization) to improve generalization.
-Model Development:
+#Model Development:
 
 Designed and trained a custom CNN architecture optimized for the GTSRB dataset.
 Experimented with various configurations, including layer count, node sizes, and preprocessing strategies.
-Model Evaluation:
+#Model Evaluation:
 
 Evaluated performance using metrics like accuracy, precision, recall, and F1-score.
 Visualized misclassified traffic sign classes using confusion matrices.
@@ -27,16 +26,16 @@ Data Splits: 80% training, 10% validation, 10% testing.
 Characteristics: Varying lighting, weather, and viewing angles.
 Classes: Includes stop signs, speed limits, yield signs, and pedestrian crossings.
 Steps Completed
-Data Preprocessing:
+#Data Preprocessing:
 
 Resized images to 30x30 and 60x60 pixels.
 Normalized pixel values for stable training.
 Applied data augmentation to enhance dataset diversity.
-Model Development:
+#Model Development:
 
 Built a CNN tailored to the GTSRB dataset using Keras.
 Experimented with different architectures by varying layers and hyperparameters.
-Evaluation:
+#Evaluation:
 
 Assessed performance across configurations.
 Fine-tuned the model using augmented data for improved accuracy.
